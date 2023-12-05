@@ -5,6 +5,8 @@ In the Data Cleaning attention is on column names, data types, and an extraction
 add the number of days from when the movie was released till today (i.e the day you're doing the visualization)
 
 # DATA CLEANING
+![PYTHON Pro 1  initial capitalizing the columns headers](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/71a9e8cf-1f38-47f2-8052-09f4c7306405)
+
 
 ![PYTHON CODE Replacing countries abreviation with the countries Names](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/9355cdcb-988c-4de6-94d8-28af204a4d51)
 
@@ -19,9 +21,11 @@ add the number of days from when the movie was released till today (i.e the day 
 
 
 
-Questions to answer with the dataset:
+# Questions to answer with the dataset:
 
-1: The most popular director. 
+1: The most popular director.
+
+
 
 2: The countries that make the most and least movies (top 5 and bottom 5)
 
