@@ -10,6 +10,9 @@ add the number of days from when the movie was released till today (i.e the day 
 
 ![PYTHON CODE Replacing countries abreviation with the countries Names](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/9355cdcb-988c-4de6-94d8-28af204a4d51)
 
+![PYTHON  USING REPLACE TO REMOVE THE BRAKETS IN THE DATE IN THE 1ST INSTANCE](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/5071628a-c345-44d9-9ea7-5d97c6a16988)
+
+![PYTHON EXTRACTION THE YEAR FROM THE DATE AND CREATING THE COLUMN AS YEAR](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/106067cf-9e97-445f-bf47-618c8848ce1d)
 
 ![PYTHON Pro 2 assigning date datatype to date column](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/40fdb98a-0fde-453e-a741-466dc607f1c4)
 
@@ -17,6 +20,7 @@ add the number of days from when the movie was released till today (i.e the day 
 ![PYTHON CALCULATING THE NUMBER OF DAYS SINCE MOVIE WAS LISTED UNTIL TODAY AND CREATING THE COLUMN AS ADDED DAYS](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/c528c4cb-9fec-42b5-88a4-6ac4805e044e)
 
 
+![PYHON FINAL CLEANED PROJECT DATASET AND SAVING TO CSV](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/d764aaf1-e0c4-4c44-a36b-c095d9c0fb2d)
 
 
 
