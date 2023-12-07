@@ -33,10 +33,10 @@ add the number of days from when the movie was released till today (i.e the day 
 # Questions to answer with the dataset:
 
 1: The most popular director.
-
-
+![THE MOST POPULAR DIRECTOR IS TO COUNT THE DIRECTOR THAT HAS THE MOST MOVE](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/f590d50a-4491-4c9f-83dc-b292bb8c8ec3)
 
 2: The countries that make the most and least movies (top 5 and bottom 5)
+![THE CODE BELOW SHOWS THE FIVE TOP COUNTRY AND FIVE LAST COUNTRY](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/786f427e-0f98-4aa5-a176-9a04e074f9ce)
 
 3: Movie trends over the years
 
