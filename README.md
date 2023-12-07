@@ -29,10 +29,10 @@ add the number of days from when the movie was released till today (i.e the day 
 
 
 
-
 # Questions to answer with the dataset:
 
 1: The most popular director.
+
 ![BAR CHART SHOWING THE MOST POPULAR DIRECTOR](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/c95892bc-a8a6-4347-92d6-a114697a4d19)
 
 ![THE MOST POPULAR DIRECTOR IS TO COUNT THE DIRECTOR THAT HAS THE MOST MOVE](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/f590d50a-4491-4c9f-83dc-b292bb8c8ec3)
