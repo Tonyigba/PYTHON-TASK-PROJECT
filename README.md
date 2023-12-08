@@ -54,7 +54,10 @@ plt.show()
 ANSWER: 
 
 prodata['Country'].value_counts().head()
+
 prodata['Country'].value_counts().tail()
+
+
 ![THE CODE BELOW SHOWS THE FIVE TOP COUNTRY AND FIVE LAST COUNTRY](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/786f427e-0f98-4aa5-a176-9a04e074f9ce)
 
 
@@ -65,6 +68,8 @@ prodata['Country'].value_counts().tail()
 
 
 5: Countries with the highest average movie duration.
+
+ANSWER:
 
 prodata.groupby('Country')['Duration'].mean().round(0).sort_values(ascending =False)[0:9]
 
