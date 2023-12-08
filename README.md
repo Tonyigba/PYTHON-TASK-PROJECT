@@ -33,7 +33,9 @@ add the number of days from when the movie was released till today (i.e the day 
 # Questions to answer with the dataset:
 
 1: The most popular director.
+
 prodata['Director'].value_counts()[1:]
+
 Top_Director
 Top_Director.index[0:5]
 Top_Director.values[0:5]
@@ -42,15 +44,37 @@ plt.title('Distribution of top Director')
 plt.show()
 ![BAR CHART SHOWING THE MOST POPULAR DIRECTOR PNG 1](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/434f63f7-d073-4f04-a771-06a664ba3f27)
 
-
 ![THE MOST POPULAR DIRECTOR IS TO COUNT THE DIRECTOR THAT HAS THE MOST MOVE](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/f590d50a-4491-4c9f-83dc-b292bb8c8ec3)
 
+
 2: The countries that make the most and least movies (top 5 and bottom 5)
+prodata['Country'].value_counts().head()
+prodata['Country'].value_counts().tail()
 ![THE CODE BELOW SHOWS THE FIVE TOP COUNTRY AND FIVE LAST COUNTRY](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/786f427e-0f98-4aa5-a176-9a04e074f9ce)
 
 3: Movie trends over the years
 
 4: Most popular country-genre mix
 
-5: Countries with the highest average movie duration
+
+
+5: Countries with the highest average movie duration.
+
+prodata.groupby('Country')['Duration'].mean().round(0).sort_values(ascending =False)[0:9]
+
+Top_avg
+Top_avg.index[0:6]
+Top_avg.values[0:6]
+plt.bar(Top_avg.index[0:6], Top_avg.values[0:6], 0.5)
+plt.title('Distribution of Country with Highest Movie Duration')
+plt.show()
+
+![Countries with highest average movie duration](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/1e3145d7-1d2c-4974-8478-6fbeff60036c)
+
+![Countries with highest average movie duration 2](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/87288e5d-1ea5-4310-a004-503df8c1c41b)
+
+![GRAPHIC REPRESENTATION OF COUNTRIES WITH HIGHEST MOVIE DURATION](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/5459a38f-d740-432b-abff-56c85391b058)
+
+
+
 
