@@ -30,7 +30,9 @@ add the number of days from when the movie was released till today (i.e the day 
 
 # Questions to answer with the dataset:
 
-1: The most popular director.
+1: The most popular director?
+
+ANSWER:
 prodata['Director'].value_counts()[1:]
 
 Top_Director
@@ -47,7 +49,9 @@ plt.show()
 ![THE MOST POPULAR DIRECTOR IS TO COUNT THE DIRECTOR THAT HAS THE MOST MOVE](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/f590d50a-4491-4c9f-83dc-b292bb8c8ec3)
 
 
-2: The countries that make the most and least movies (top 5 and bottom 5
+2: The countries that make the most and least movies (top 5 and bottom 5)
+
+ANSWER: 
 
 prodata['Country'].value_counts().head()
 prodata['Country'].value_counts().tail()
