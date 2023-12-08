@@ -28,8 +28,6 @@ add the number of days from when the movie was released till today (i.e the day 
 ![PROJET CLEANED DATA NAMED PRODATA](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/3404cffe-39d3-40e1-b7a1-a75df629a245)
 
 
-
-
 # Questions to answer with the dataset:
 
 1: The most popular director.
@@ -42,6 +40,8 @@ Top_Director.values[0:5]
 plt.bar(Top_Director.index[0:5], Top_Director.values[0:5], 0.2)
 plt.title('Distribution of top Director')
 plt.show()
+
+
 ![BAR CHART SHOWING THE MOST POPULAR DIRECTOR PNG 1](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/434f63f7-d073-4f04-a771-06a664ba3f27)
 
 ![THE MOST POPULAR DIRECTOR IS TO COUNT THE DIRECTOR THAT HAS THE MOST MOVE](https://github.com/Tonyigba/PYTHON-TASK-PROJECT/assets/143624967/f590d50a-4491-4c9f-83dc-b292bb8c8ec3)
